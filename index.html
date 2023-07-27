@@ -7,20 +7,30 @@
     <title>Noon.com</title>
     <link rel="icon" type="image/x-icon" href="./assests/noon-loader.gif">
     <link rel="stylesheet" href="./dist/style.css">
+    <link rel="stylesheet" href="output.css">
 </head>
 <body>
     <div>
         <!-- navbar start -->
-        <nav class="flex items-center justify-evenly bg-yellow-400 p-2">
+        <nav class="flex items-center justify-between bg-yellow-400 p-2 nav-media1 hidden">
+            <div>
+                <img src="./assests/logo.svg" class="h-[24px]" alt="logo">
+            </div>
+            <div class="text-lg hemburger">
+                <button><i class="fa-solid fa-bars"></i></button>
+            </div>
+        </nav>
+
+        <nav class="flex items-center justify-evenly bg-yellow-400 p-2 nav-media">
             <div>
                 <img src="./assests/logo.svg" class="h-[24px]" alt="logo">
             </div>
             <div class="flex cursor-pointer"> 
                 <img src="./assests/flage.svg" alt="flage">
-                <h1 class="ml-3">Deliver to <img src="./assests/arrow.svg" class="inline ml-2" alt="arrow">
+                <h1 class="ml-3 .nav.media">Deliver to <img src="./assests/arrow.svg" class="inline ml-2" alt="arrow">
                      <br> <b>Dubai</b></h1>
             </div>
-            <div>
+            <div class="search-bar">
                 <input type="text" id="searchBar" class="w-[70rem] h-[36px] p-[12px] bg-white border-transparent rounded-md " placeholder="What are you looking for?" autocomplete="off" value="">
             </div>
             <div>
@@ -31,8 +41,9 @@
             </div>
             <div>
                 <h3 class="font-bold "><button>Cart<img class="inline ml-[8px] h-6" src="./assests/cart.svg" alt="user"> </button></h3>
-            </div>
+            </div>    
         </nav>
     </div>
+    <script src="https://kit.fontawesome.com/48cc78a26d.js" crossorigin="anonymous"></script>
 </body>
 </html>
