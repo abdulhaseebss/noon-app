@@ -1,19 +1,18 @@
 @media (max-width: 1280px) {
-    .search-bar{
-      width: 40rem;
-    }
-    .nav-media{
-        display: none;
-      }
-      .nav-media1{
-        display: block;
-        display: flex;
-    }
+  .search-bar{
+    display: none;
+  }
 }
   
 @media (max-width: 1024px) {
-    
-}
-.witdh{
-  width: 20rem;
+  .search-bar{
+    width: 40rem;
+  }
+  .nav-media{
+      display: none;
+    }
+    .nav-media1{
+      display: block;
+      display: flex;
+  }
 }
